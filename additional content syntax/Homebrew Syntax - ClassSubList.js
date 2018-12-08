@@ -1,10 +1,7 @@
 var iFileName = "Homebrew Syntax - ClassSubList.js"; // Optional; This is how the file will be named in the sheet if you import it as a file and not copy-paste its content. Only the first occurrence of this variable will be used
 RequiredSheetVersion(12.999); // Optional; This is the minimum required version number of the sheet for the script to work. If the sheet being used to import the script is of an earlier version, the user will be warned
-
 AddSubClass( // this is the function you will be calling to add the variant
-
 	"paladin", 
-	
 	"oath of zeal", 	
 	{ 
 		regExpSearch : /^(?=.*(zeal|enthusiasm))(((?=.*paladin)|((?=.*(exalted|sacred|holy|divine))(?=.*(knight|fighter|warrior|warlord|trooper))))).*$/i,
